@@ -1,0 +1,8 @@
+Materials for clojure presentation:
+	- slides.pdf (the slides)
+	- code/
+		- Contains the code used during the examples
+	- emacs
+		- My ~/.emacs file used for SBCL/Clojure interop
+	- clojure.sh
+		- Nice script to launch clojure
