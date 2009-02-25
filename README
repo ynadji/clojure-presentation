@@ -1,3 +1,6 @@
+Github: https://github.com/ynadji/clojure-presentation/tree
+$ git clone git://github.com/ynadji/clojure-presentation.git
+
 Materials for clojure presentation:
 	- slides.pdf (the slides)
 	- code/
