@@ -6,3 +6,16 @@ Materials for clojure presentation:
 		- My ~/.emacs file used for SBCL/Clojure interop
 	- clojure.sh
 		- Nice script to launch clojure
+
+- Other things to install:
+	- sbcl
+		- sudo {apt-get, port, emerge, etc.) install sbcl
+	- Clojure:
+		- Nice guide: http://en.wikibooks.org/wiki/Clojure_Programming/Getting_Started
+		- clojure: http://github.com/sethtrain/clojure-github/tree/master
+		- clojure-contrib: http://github.com/kevinoneill/clojure-contrib/tree/master
+	- Slime:
+		- See above guide too
+		- slime: http://github.com/nablaone/slime/commits/master
+		- swank-clojure: http://github.com/jochu/swank-clojure/tree/master
+		- clojure-mode: http://github.com/jochu/clojure-mode/tree/master
