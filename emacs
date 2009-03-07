@@ -1,7 +1,7 @@
 ;; Clojure mode
 (add-to-list 'load-path "/Users/ynadji/Code/Lisp/slime/clojure-mode")
-;(require 'clojure-auto)
-(autoload 'clojure-mod "clojure-mode" "A major mode for Clojure" t)
+(autoload 'clojure-mode "clojure-mode" "A major mode for Clojure" t)
+(require 'clojure-mode)
 
 (defvar *clojure-running* nil)
 
