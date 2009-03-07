@@ -15,7 +15,7 @@ Materials for clojure presentation:
 		- sudo {apt-get, port, emerge, etc.) install sbcl
 	- Clojure:
 		- Nice guide: http://en.wikibooks.org/wiki/Clojure_Programming/Getting_Started
-		- clojure: http://github.com/sethtrain/clojure-github/tree/master
+		- clojure: http://github.com/kevinoneill/clojure/tree/master
 		- clojure-contrib: http://github.com/kevinoneill/clojure-contrib/tree/master
 	- Slime:
 		- See above guide too
