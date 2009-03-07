@@ -1,6 +1,7 @@
 ;; Clojure mode
 (add-to-list 'load-path "/Users/ynadji/Code/Lisp/slime/clojure-mode")
-(require 'clojure-auto)
+;(require 'clojure-auto)
+(autoload 'clojure-mod "clojure-mode" "A major mode for Clojure" t)
 
 (defvar *clojure-running* nil)
 
@@ -17,7 +18,7 @@
 (add-to-list 'load-path "/Users/ynadji/Code/Lisp/slime/contrib")
 (add-to-list 'load-path "/Users/ynadji/.elisp/load")
 (add-to-list 'load-path "/Users/ynadji/Code/Lisp/slime/swank-clojure")
-(setq swank-clojure-jar-path "/Users/ynadji/Code/Lisp/clojure/trunk/clojure.jar")
+(setq swank-clojure-jar-path "/Users/ynadji/Code/Lisp/clojure/clojure.jar")
 (require 'swank-clojure-autoload)
 
 (global-set-key [f6] 'run-clojure)
